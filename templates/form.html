@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Upload Files</title>
+</head>
+
+<body>
+    <h2>Upload Answer Key</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="answer_key"  required />
+        <h2>Upload Student's answer sheet</h2>
+        <input type="file" name="student_response" multiple required />
+        <input type="submit" />
+    </form>
+</body>
+
+</html>
